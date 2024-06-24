@@ -3,7 +3,7 @@ guests.forEach((guest)=>{
 console.log(` Hi ${guest} would you like to join me in dinner today?`);
 });
 
-    //Q15
+    //Q14
 
 let cantmake= "Dany";
 console.log(`${cantmake} can't make to the dinner today..`);
