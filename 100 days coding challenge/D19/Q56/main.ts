@@ -1,9 +1,7 @@
-// Q55 - Double Numbers in an Array: Make a list of numbers. Then, use a trick to make a new list where each number 
-//is twice its original value.
+//Q56 - Keep Only Strings: Given a mix of different types of items, make a new list that has only the words.
 
-let numbers:number[]=[1,2,3,4,5];
+let mixitems=[1,"apple",2,"cat", true,"chair"]
 
-let doublenumbers=(numbers.map((numbers)=> numbers*2));
+let arrayofwords=mixitems.filter((items)=> typeof items == "string");
 
-console.log(numbers);
-console.log("Double of old list",doublenumbers);
+console.log(arrayofwords);
