@@ -1,4 +1,4 @@
-//Question 119: Create a while loop that logs "Hello, World!" 5 times.
+//Question 120: Create a while loop that logs "Hello, World!" 5 times.
 
 let count :number = 0;
 while(count<5)
